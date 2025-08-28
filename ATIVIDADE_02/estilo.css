@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 1024px;
+    margin-left:auto;
+    margin-right:auto;
+
+    color: hsl(0, 0%, 3%);
+}
+
+header {
+    text-align: center;
+}   
+
+header> h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+header #email {
+ color: aqua;
+ font-weight: bold;   
+   
+}
+h2 {
+    background-color: beige;
+    color: rgb(39, 37, 37);
+    padding: 10px;
+    padding-left:30px;
+    border-radius: 5px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 40px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.identacao {
+    text-indent: 30px;
+    
+}
+
+.enfase {
+    font-weight: bold;
+    color: antiquewhite;
+
+}
+
+.codigo-fonte {
+    font-family: monospace;
+    color: rgb(43, 38, 38);
+    font-size: 150;
+}
